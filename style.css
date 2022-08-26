@@ -1,0 +1,114 @@
+/* TAGS */
+
+h1 {
+    font-size: 64px;
+    font-weight: 900;
+    margin-top: 50px;
+}
+
+h2 {
+    font-size: 32px;
+    font-weight: 900;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+/* CLASSES */
+
+.container-l {
+    max-width: 50%;
+    width: 50%;
+    background-image: url("./background.png");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-r {
+    width: 50%;
+    max-width: 50%;
+    display: flex;
+    background-color: black;
+    align-items: center;
+    color: white;
+}
+
+.btn-google-apple {
+    width: 270px;
+    border-radius: 25px;
+    margin-top: 20px;
+    font-weight: 800;
+}
+
+.footer-item {
+    color: grey;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.footer-item:hover {
+    color: grey;
+}
+
+/* IDS */
+
+#mainDiv {
+    height: 93vh;
+    display: flex;
+}
+
+#container-or {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#or-line {
+    height: 1px;
+    background-color: rgb(79, 79, 79);
+    width: 120px;
+}
+
+#btn-create-account {
+    width: 270px;
+    border-radius: 25px;
+    font-weight: 800;
+    background-color: rgb(29, 155, 240);
+}
+
+#privacy-policy {
+    width: 300px;
+    font-size: 10px;
+    margin-top: 10px;
+    font-weight: 200;
+    color: grey;
+}
+
+#container-sign-in {
+    display: flex;
+    font-weight: 700;
+    margin-top: 60px;
+}
+
+#btn-sign-in {
+    width: 270px;
+    border-radius: 25px;
+    font-weight: 800;
+    background-color: rgba(29, 156, 240, 0);
+    border-color: rgb(83, 100, 113);
+    color: rgb(29, 155, 240);
+}
+
+#footer {
+    height: 70px;
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 12px;
+    justify-content: center;
+    padding-top: 15px;
+    font-weight: 500;
+}

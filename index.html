@@ -11,22 +11,12 @@
             integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
             crossorigin="anonymous"
         />
+        <link rel="stylesheet" type="text/css" href="./style.css"/>
     </head>
     <body>
-        <div style="height: 93vh; display: flex">
+        <div id="mainDiv">
             <div
-                class="container-l"
-                style="
-                    max-width: 50%;
-                    width: 50%;
-                    background-image: url('./background.png');
-                    background-size: cover;
-                    background-position: center;
-                    display: flex;
-                    align-items: center;
-                    justify-content: center;
-                "
-            >
+                class="container-l">
                 <svg
                     viewBox="0 0 24 24"
                     style="width: 300px"
@@ -42,17 +32,7 @@
                 </svg>
             </div>
             <div
-                class="container-r"
-                style="
-                    width: 50%;
-                    max-width: 50%;
-                    background-color: black;
-                    display: flex;
-                    align-items: center;
-                    color: white;
-                "
-                ;
-            >
+                class="container-r">
                 <div style="padding-left: 40px">
                     <svg
                         viewBox="0 0 24 24"
@@ -67,34 +47,16 @@
                             ></path>
                         </g>
                     </svg>
-                    <h1
-                        style="
-                            font-size: 64px;
-                            font-weight: 900;
-                            margin-top: 50px;
-                        "
-                    >
+                    <h1>
                         Happening now
                     </h1>
-                    <h2
-                        style="
-                            font-size: 32px;
-                            font-weight: 900;
-                            margin-top: 40px;
-                        "
-                    >
+                    <h2>
                         Join Twitter today.
                     </h2>
                     <div>
                         <button
                             type="button"
-                            class="btn btn-light"
-                            style="
-                                width: 270px;
-                                border-radius: 25px;
-                                margin-top: 30px;
-                                font-weight: 800;
-                            "
+                            class="btn btn-light btn-google-apple"
                         >
                             <svg
                                 style="width: 20px"
@@ -127,14 +89,8 @@
 
                         <button
                             type="button"
-                            class="btn btn-light"
-                            style="
-                                width: 270px;
-                                border-radius: 25px;
-                                margin-top: 20px;
-                                font-weight: 800;
-                            "
-                        >
+                            class="btn btn-light btn-google-apple"
+                            >
                             <svg
                                 style="width: 20px"
                                 viewBox="0 0 24 24"
@@ -151,55 +107,23 @@
                             Continue with Apple
                         </button>
                     </div>
-                    <div
-                        style="
-                            display: flex;
-                            align-items: center;
-                            margin-top: 10px;
-                            margin-bottom: 10px;
-                        "
-                    >
-                        <div
-                            style="
-                                height: 1px;
-                                background-color: rgb(79, 79, 79);
-                                width: 120px;
-                            "
-                        ></div>
+                    <div id="container-or">
+                        <div id="or-line"></div>
                         <div style="margin-left: 10px; margin-right: 10px">
                             or
                         </div>
-                        <div
-                            style="
-                                height: 1px;
-                                background-color: rgb(79, 79, 79);
-                                width: 120px;
-                            "
-                        ></div>
+                        <div id="or-line"></div>
                     </div>
                     <div>
                         <button
                             type="button"
                             class="btn btn-primary"
-                            style="
-                                width: 270px;
-                                border-radius: 25px;
-                                font-weight: 800;
-                                background-color: rgb(29, 155, 240);
-                            "
+                            id="btn-create-account"
                         >
                             Create account
                         </button>
                     </div>
-                    <div
-                        style="
-                            width: 300px;
-                            font-size: 10px;
-                            margin-top: 10px;
-                            font-weight: 200;
-                            color: grey;
-                        "
-                    >
+                    <div id="privacy-policy">
                         By signing up, you agree to the
                         <a href="#" style="color: rgb(29, 155, 240)"
                             >Terms of Service</a
@@ -212,62 +136,38 @@
                             >Cookie Use</a
                         >
                     </div>
-                    <div
-                        style="
-                            display: flex;
-                            font-weight: 700;
-                            margin-top: 60px;
-                        "
-                    >
+                    <div id="container-sign-in">
                         Already have an account?
                     </div>
                     <div style="margin-top: 20px">
                         <button
                             type="button"
                             class="btn btn-primary"
-                            style="
-                                width: 270px;
-                                border-radius: 25px;
-                                font-weight: 800;
-                                background-color: rgba(29, 156, 240, 0);
-                                border-color: rgb(83, 100, 113);
-                                color: rgb(29, 155, 240);
-                            "
-                        >
+                            id="btn-sign-in"
+                            >
                             Sign in
                         </button>
                     </div>
                 </div>
             </div>
         </div>
-        <div
-            style="
-                height: 70px;
-                background-color: black;
-                display: flex;
-                flex-wrap: wrap;
-                font-size: 12px;
-                justify-content: center;
-                padding-top: 15px;
-                font-weight: 500;
-            "
-        >
-            <a href="#" style="color: grey; margin-left: 5px; margin-right: 5px;">About</a>
-            <a href="#" style="color: grey ;margin-left: 5px; margin-right: 5px;">Help Center</a>
-            <a href="#" style="color: grey; margin-left: 5px; margin-right: 5px;">Terms of Service</a>
-            <a href="#" style="color: grey; margin-left: 5px; margin-right: 5px;">Privacy Policy</a>
-            <a href="#" style="color: grey; margin-left: 5px; margin-right: 5px;">Cookie Policy</a>
-            <a href="#" style="color: grey; margin-left: 5px; margin-right: 5px;">Accessibility</a>
-            <a href="#" style="color: grey; margin-left: 5px; margin-right: 5px;">Ads info</a>
-            <a href="#" style="color: grey; margin-left: 5px; margin-right: 5px;">Blog Status</a>
-            <a href="#" style="color: grey; margin-left: 5px; margin-right: 5px;">Careers</a>
-            <a href="#" style="color: grey; margin-left: 5px; margin-right: 5px;">Brand Resources</a>
-            <a href="#" style="color: grey; margin-left: 5px; margin-right: 5px;">Advertising</a>
-            <a href="#" style="color: grey; margin-left: 5px; margin-right: 5px;">Marketing</a>
-            <a href="#" style="color: grey; margin-left: 5px; margin-right: 5px;">Twitter for Business</a>
-            <a href="#" style="color: grey; margin-left: 5px; margin-right: 5px;">Developers</a>
-            <a href="#" style="color: grey; margin-left: 5px; margin-right: 5px;">Directory</a>
-            <a href="#" style="color: grey; margin-left: 5px; margin-right: 5px;">Settings</a>
+        <div id="footer">
+            <a href="#" class="footer-item">About</a>
+            <a href="#" class="footer-item">Help Center</a>
+            <a href="#" class="footer-item">Terms of Service</a>
+            <a href="#" class="footer-item">Privacy Policy</a>
+            <a href="#" class="footer-item">Cookie Policy</a>
+            <a href="#" class="footer-item">Accessibility</a>
+            <a href="#" class="footer-item">Ads info</a>
+            <a href="#" class="footer-item">Blog Status</a>
+            <a href="#" class="footer-item">Careers</a>
+            <a href="#" class="footer-item">Brand Resources</a>
+            <a href="#" class="footer-item">Advertising</a>
+            <a href="#" class="footer-item">Marketing</a>
+            <a href="#" class="footer-item">Twitter for Business</a>
+            <a href="#" class="footer-item">Developers</a>
+            <a href="#" class="footer-item">Directory</a>
+            <a href="#" class="footer-item">Settings</a>
             <p style="color: grey;">© 2022 Twitter, Inc. </style>
         </div>
         <script
